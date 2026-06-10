@@ -1,4 +1,3 @@
-## Hi there 👋
 # Hi, I’m Dhruv 👋
 
 I’m a **backend-focused software engineer** and B.Tech IT student (JSS Academy of Technical Education, Noida – Class of 2027). I enjoy building reliable systems, clean APIs, and intelligent tools that actually solve real problems.
@@ -9,26 +8,23 @@ I’m a **backend-focused software engineer** and B.Tech IT student (JSS Academy
 
 - **Languages:** C++, Java, JavaScript/TypeScript, Python  
 - **Backend:** Node.js, Express, Django/FastAPI (familiar), REST APIs  
-- **Databases:** MongoDB, PostgreSQL (learning), basic SQL  
+- **Databases:** MongoDB, PostgreSQL (learning), SQL  
 - **Frontend:** React (for dashboards and simple UIs)  
 - **Tools & Platforms:** Git/GitHub, Linux, Docker (learning), Render, GitHub Actions (basic CI)  
-- **Core CS:** Data Structures & Algorithms, OOP, OS & Networks (in progress)
+- **Core CS:** Data Structures & Algorithms, OOP, OS & Networks
 
 ---
 
 ## 🚀 Projects I’m Proud Of
 
-- **PromptVault** – Prompt management tool to organize, reuse, and share AI prompts efficiently.  
-  Focuses on productivity, clean UX, and smooth LLM workflows.
+- **Health Assistant** – An AI-powered assistant to help users track symptoms, ask health-related questions, and get structured, easy-to-understand information.  
+  Uses a **vector-based RAG pipeline** over a curated medical knowledge base so that answers are grounded in retrieved context instead of only relying on the LLM.
 
-- **JavaScript Playground** – An in-browser environment to quickly test and experiment with JavaScript snippets.  
-  Helps reinforce core JS concepts and fast prototyping.
+- **Lawyer Assistant** – A legal helper that summarizes long legal documents, explains clauses in simple language, and assists with drafting basic templates.  
+  Uses a **vectorless RAG approach** (prompt-time retrieval from structured legal templates, rules, and patterns) to generate consistent, controllable outputs without a heavy vector database.
 
-- **Grammar Nazi** – A grammar-checking tool to clean and improve English text.  
-  Explores basic NLP/AI usage and building helpful micro-tools.
-
-- **Backend Interview Challenges** – Solutions and implementations for backend tasks and interview-style APIs.  
-  Shows how I think about API design, error handling, and clean code.
+- **Daily Notes** – A minimal, fast note-taking tool for capturing ideas, todos, and daily reflections.  
+  Designed to be simple, fast, and easy to use every day, with a focus on keyboard-friendly workflows.
 
 More projects are coming, especially around Go microservices, infra tooling, and AI-powered automation.
 
@@ -36,7 +32,7 @@ More projects are coming, especially around Go microservices, infra tooling, and
 
 ## 📈 DSA & Competitive Programming
 
-- Solved **1700+ LeetCode problems** across arrays, trees, graphs, DP, backtracking, sliding window, and more.  
+- Solved **450+ LeetCode problems** across arrays, trees, graphs, DP, backtracking, sliding window, and more.  
 - Comfortable with time/space complexity, edge cases, and writing clean, optimized solutions in C++ and Java.  
 - Regularly practice for online assessments and coding interviews.
 
@@ -46,7 +42,7 @@ More projects are coming, especially around Go microservices, infra tooling, and
 
 - Deepening my **backend and distributed systems** knowledge (Go, scalable APIs, queues, caching).  
 - Building more production-like projects with proper structure, testing, Docker, and basic CI/CD.  
-- Exploring **practical AI automation** – using LLMs to build tools that save time and reduce manual work.  
+- Exploring **practical AI automation** – using RAG (both vector and vectorless) and LLMs to build tools that save time and reduce manual work.  
 - Preparing for **software engineering internships**.
 
 ---
@@ -54,7 +50,7 @@ More projects are coming, especially around Go microservices, infra tooling, and
 ## 📬 Connect with Me
 
 - **LinkedIn:** [linkedin.com/in/dhruvgarg23](https://www.linkedin.com/in/dhruvgarg23/)  
-- **X (Twitter):** [@dhruvtwt_](https://x.com/dhruvtwt_)  
+- **X (Twitter):** [@dhruvtwt_](https://x.com/dhruvgarg_23_)  
 - **Email:** dhruvgarg1425@gmail.com  
 
 Always up for conversations about backend engineering, systems design, AI tools, and side projects.
