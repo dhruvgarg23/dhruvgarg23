@@ -1,70 +1,83 @@
-# Hi, I’m Dhruv 👋
+# Dhruv Garg
 
-I’m a **backend-focused software engineer** and B.Tech IT student (JSS Academy of Technical Education, Noida – Class of 2027). I enjoy building reliable systems, clean APIs, and intelligent tools that actually solve real problems.
+**Backend Engineering · AI Systems · B.Tech IT @ JSS Noida**
 
----
+I build backend systems and AI applications where the engineering underneath the interface matters.
 
-## 🔧 Tech Stack
+My interest started with competitive programming and well-defined problems. Building software shifted that focus toward messier questions: **how systems retrieve information, handle failure, scale, and behave when inputs don't fit the happy path.**
 
-- **Languages:** C++, Java, JavaScript/TypeScript, Python  
-- **Backend:** Node.js, Express, Django/FastAPI (familiar), REST APIs  
-- **Databases:** MongoDB, PostgreSQL (learning), SQL  
-- **Frontend:** React (for dashboards and simple UIs)  
-- **Tools & Platforms:** Git/GitHub, Linux, Docker (learning), Render, GitHub Actions (basic CI)  
-- **Core CS:** Data Structures & Algorithms, OOP, OS & Networks
+That is what I explore through the projects I build.
 
 ---
 
-## 🚀 Projects I’m Proud Of
+## Building
 
-- **Health Assistant** – An AI-powered assistant to help users track symptoms, ask health-related questions, and get structured, easy-to-understand information.  
-  Uses a **vector-based RAG pipeline** over a curated medical knowledge base so that answers are grounded in retrieved context instead of only relying on the LLM.
+### Lenny Growth Assistant
 
-- **Lawyer Assistant** – A legal helper that summarizes long legal documents, explains clauses in simple language, and assists with drafting basic templates.  
-  Uses a **vectorless RAG approach** (prompt-time retrieval from structured legal templates, rules, and patterns) to generate consistent, controllable outputs without a heavy vector database.
+An AI product-intelligence system built around **300+ Lenny Podcast episodes and newsletters**.
 
-- **Daily Notes** – A minimal, fast note-taking tool for capturing ideas, todos, and daily reflections.  
-  Designed to be simple, fast, and easy to use every day, with a focus on keyboard-friendly workflows.
+I built it to explore a problem that simple RAG systems often gloss over: **retrieval quality**.
 
-More projects are coming, especially around Go microservices, infra tooling, and AI-powered automation.
+The system combines PostgreSQL full-text search with pgvector semantic search and uses Reciprocal Rank Fusion to combine retrieval signals. Responses stream through SSE and include citations back to the underlying sources.
 
----
+**React · FastAPI · PostgreSQL · pgvector · LLMs · SSE**
 
-## 📈 DSA & Competitive Programming
-
-- Solved **450+ LeetCode problems** across arrays, trees, graphs, DP, backtracking, sliding window, and more.  
-- Comfortable with time/space complexity, edge cases, and writing clean, optimized solutions in C++ and Java.  
-- Regularly practice for online assessments and coding interviews.
+[Repository](https://github.com/dhruvgarg23/Lenny-Growth-Assistant)
 
 ---
 
-## 🎯 Current Focus (2026)
+### Health Advisory System
 
-- Deepening my **backend and distributed systems** knowledge (Go, scalable APIs, queues, caching).  
-- Building more production-like projects with proper structure, testing, Docker, and basic CI/CD.  
-- Exploring **practical AI automation** – using RAG (both vector and vectorless) and LLMs to build tools that save time and reduce manual work.  
-- Preparing for **software engineering internships**.
+A RAG-based health information assistant built around a curated medical knowledge base.
+
+The project evolved from experimenting with LLMs into a deeper exploration of **retrieval, reranking, memory, validation, and failure handling**.
+
+The system retrieves relevant medical context before generating responses, maintains structured conversation context, and uses validation and fallback mechanisms to constrain unreliable outputs.
+
+**FastAPI · React · LangChain · FAISS · LLaMA 3**
 
 ---
 
-## 📬 Connect with Me
+### Lawyer Assistant
 
-- **LinkedIn:** [linkedin.com/in/dhruvgarg23](https://www.linkedin.com/in/dhruvgarg23/)  
-- **X (Twitter):** [@dhruvtwt_](https://x.com/dhruvgarg_23_)  
-- **Email:** dhruvgarg1425@gmail.com  
+An experiment in building more controlled LLM applications.
 
-Always up for conversations about backend engineering, systems design, AI tools, and side projects.
-<!--
-**dhruvgarg23/dhruvgarg23** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Instead of assuming every retrieval problem requires embeddings and a vector database, this system retrieves from structured legal rules, templates, and patterns.
 
-Here are some ideas to get you started:
+The goal was to understand where **deterministic retrieval can be preferable to semantic retrieval**, and where an LLM should have less freedom.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Technical Focus
+
+**Backend**  
+Python · FastAPI · Node.js · Express · REST APIs
+
+**Data & Search**  
+PostgreSQL · pgvector · MongoDB · SQL · Hybrid Search · Semantic Search
+
+**AI Systems**  
+RAG · LLM Applications · Embeddings · LangChain · Prompt Engineering
+
+**Frontend**  
+React · JavaScript/TypeScript · Tailwind CSS
+
+**Engineering**  
+Docker · Git · GitHub Actions · Linux
+
+**Languages**  
+Python · C++ · Java · JavaScript/TypeScript · SQL
+
+---
+
+## Problem Solving
+
+**500+ LeetCode problems · 1830+ contest rating**
+
+I use competitive programming to sharpen algorithmic thinking, complexity analysis, and edge-case reasoning.
+
+---
+
+## Links
+
+[LinkedIn](https://linkedin.com/in/dhruvgarg23) · [X](https://x.com/dhruvgarg_23) · [Email](mailto:dhruvgarg1425@gmail.com)
